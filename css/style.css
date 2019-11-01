@@ -78,3 +78,11 @@ body {
 #services {
   text-align: center;
 }
+.portfolio {
+ margin-left: 10%;
+ margin-right: 10%; 
+}
+.portfolio-img {
+  padding: 10px 10px;
+  width: 100%;
+}
