@@ -97,10 +97,15 @@ body {
 }
 #name, #email, #area {
   background-color: transparent;
-  color: white;
   border-color: white;
+  color: white;
 }
-#area {
-  width: 800px;
-  height: 150px;
+input[type="email"]::-webkit-input-placeholder {
+  color: white !important;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color:white !important;
+}
+textarea::-webkit-input-placeholder {
+    color:white !important;
 }
