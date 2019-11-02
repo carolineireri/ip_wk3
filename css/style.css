@@ -28,9 +28,14 @@ body {
 .section1 {
   background: url(/images/backgrounds/h_img.jpg) no-repeat;
   background-size: 100%;
+  font-family: 'Gugi', cursive;
+  
 }
 .section1 p {
-  font-size: 18px;
+  font-size: 30px;
+}
+.section1 h4 {
+  font-size: 20px;
 }
 .logo {
   margin-left: auto;
