@@ -136,8 +136,8 @@ footer {
     transform: translateY(-15px);
   }
 }
-#design,
-#development,
-#management {
+#design-p,
+#development-p,
+#management-p {
   display: none;
 }
