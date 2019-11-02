@@ -91,13 +91,16 @@ body {
   color: white;
   border-color: white;
   text-align: center;
-  padding: 20px 60px 20px 60px;
+  padding: 20px 90px 20px 125px;
+  height: 400px;
+  
 }
 #name, #email, #area {
   background-color: transparent;
   color: white;
   border-color: white;
 }
-form {
-  
+#area {
+  width: 800px;
+  height: 150px;
 }

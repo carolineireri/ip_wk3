@@ -164,21 +164,53 @@
       </div>
       <div class="section5">
         <div class="contact">
-          <h2>Contact Us</h2>
+          <h2>Contact Us</h2><br>
           <form action="" id="name-form">
-            <div class="form-group">
-              <input type="text" placeholder="Name..." class="form-control" id="name">
-              <input type="email" placeholder="Email.." class="form-control" id="email">
-            </div>
-            <br><br>
-            <textarea name="" id="area" cols="30" rows="10" placeholder="Your message here..."
-              class="form-control"></textarea>
-            <br>
-            <button type="submit" class="button" onclick="validate()">Submit</button>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name..."
+                      required
+                      id="name"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email..."
+                      required
+                      id="email"
+                    />
+                  </div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <textarea
+                      type="text"
+                      class="form-control"
+                      id="area"
+                      placeholder="Your message here..."
+                      required
+                      id="message"
+                    ></textarea>
+                  </div>
+                  <br><br>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    data-target="#exampleModal"
+                  >
+                    SUBMIT
+                  </button>
+            <!-- <button type="submit" class="button" onclick="validate()">Submit</button> -->
 
           </form>
 
         </div>
+      </div>
 
         <div id="result">
 
