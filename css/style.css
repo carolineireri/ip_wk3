@@ -86,3 +86,18 @@ body {
   padding: 10px 10px;
   width: 100%;
 }
+.contact {
+  background: url(/images/backgrounds/c_image.jpg) no-repeat;
+  color: white;
+  border-color: white;
+  text-align: center;
+  padding: 20px 60px 20px 60px;
+}
+#name, #email, #area {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+form {
+  
+}
