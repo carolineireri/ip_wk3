@@ -29,4 +29,9 @@ $(document).ready(function() {
     $(".hide3").show();
     $(".hide3").toogle();
   });
+  $(".btnsend").click(function(event) {
+    event.preventDefault();
+    var user = document.getElementById('name').value;
+    alert("Hello there " + user + " your message has been received. Thank you");
+});
 });
