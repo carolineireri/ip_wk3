@@ -23,10 +23,17 @@ $(document).ready(function() {
     $("#management-p").hide();
     $(".hide3").show();
   });
-  
+  // $(document).ready(function() {
+  //   $(".port").hide();
+  //   $(".work1").hover(function() {
+  //     $(".port").show();
+  //   });
+  // });
+
   $(".btnsend").click(function(event) {
     event.preventDefault();
-    var user = document.getElementById('name').value;
+    var user = document.getElementById("name").value;
     alert("Hello " + user + " your message has been received. Thank you.");
+  });
 });
-});
+
