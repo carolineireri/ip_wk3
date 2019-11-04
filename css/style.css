@@ -26,7 +26,7 @@ body {
   text-emphasis: bold;
 }
 .section1 {
-  background: url("/images/backgrounds/h_img.jpg") no-repeat;
+  background-image: url(../images/backgrounds/h_img.jpg) no-repeat;
   background-size: 100%;
   font-family: "Gugi", cursive;
   position: relative;
@@ -65,7 +65,7 @@ body {
 }
 .section3 {
   margin: auto;
-  background: url("/images/backgrounds/s_image.jpg") no-repeat;
+  background-image: url(../images/backgrounds/s_image.jpg) no-repeat;
   background-size: 100%;
   height: 300px;
 }
@@ -112,7 +112,7 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 .contact {
-  background: url(/images/backgrounds/c_image.jpg) no-repeat;
+  background-image: url(../images/backgrounds/c_image.jpg) no-repeat;
   color: white;
   border-color: white;
   text-align: center;
