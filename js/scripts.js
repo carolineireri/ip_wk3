@@ -23,6 +23,7 @@ $(document).ready(function() {
     $("#management-p").hide();
     $(".hide3").show();
   });
+  
   $(".btnsend").click(function(event) {
     event.preventDefault();
     var user = document.getElementById('name').value;
