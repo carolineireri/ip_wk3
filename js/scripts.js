@@ -1,8 +1,3 @@
-function validate(){
-  if (name == "" || email=="") {
-    alert(
-      "Please fill in the required details correctly")
-    }
 $(document).ready(function() {
   $(".hide1").click(function() {
     $(".hide1").hide();
@@ -28,4 +23,10 @@ $(document).ready(function() {
     $("#management-p").hide();
     $(".hide3").show();
   });
-});}
+});
+$(".btnsend").click(function(event) {
+  event.preventDefault();
+  var user = document.getElementById("name").value;
+  var user = document.getElementById("name").value;
+  alert("Hello " + user + " your message has been received. Thank you.");
+});
