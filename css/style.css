@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   height: auto;
-  background:white;
+  background: black;
 }
 .container-fluid {
   margin: inherit;
@@ -56,7 +56,7 @@ body {
   text-align: center;
   background: transparent;
   padding: 12px;
-  font-size-adjust: auto; 
+  font-size-adjust: auto;
 }
 .second-text p {
   text-align: center;
@@ -73,7 +73,7 @@ body {
   text-align: center;
   background: transparent;
   color: white;
-  font-size-adjust: auto; 
+  font-size-adjust: auto;
 }
 .third-text p {
   text-align: center;
@@ -167,17 +167,23 @@ footer {
 .text:hover {
   opacity: 0.3;
 }
-@media only screen and (max-width: 1024px){
-  .col-md-12 h1,#sec-2 h1,#sec-3 h1,#sec-4 h1 {
-    font-size: calc(3vw + 3vh + .5vmin);
+@media only screen and (max-width: 1024px) {
+  .col-md-12 h1,
+  #sec-2 h1,
+  #sec-3 h1,
+  #sec-4 h1 {
+    font-size: calc(3vw + 3vh + 0.5vmin);
   }
-  .col-md-12 p,#sec-2 p,#sec-3 p {
-      font-size: calc(1vw + 1vh + .5vmin);
+  .col-md-12 p,
+  #sec-2 p,
+  #sec-3 p {
+    font-size: calc(1vw + 1vh + 0.5vmin);
   }
 }
-@media only screen and (max-width: 1024px){
-  form input, form textarea{
-  width: 100%;
-  margin: 5px 0;
-}
+@media only screen and (max-width: 1024px) {
+  form input,
+  form textarea {
+    width: 100%;
+    margin: 5px 0;
+  }
 }
