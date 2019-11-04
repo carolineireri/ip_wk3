@@ -166,8 +166,6 @@ footer {
 .portfolio-img:hover,
 .text:hover {
   opacity: 0.3;
-  filter: alpha(opacity=30);
-  color: black; 
 }
 @media only screen and (max-width: 1024px){
   .col-md-12 h1,#sec-2 h1,#sec-3 h1,#sec-4 h1 {
