@@ -33,12 +33,13 @@ To view this project, please use this live link. https://carolineireri.github.io
 ## Technologies used
 
 - HTML & CSS (Bootstrap)
-- FGoogle fonts
 - JavaScript (jQuery 3.4.1)
+- FGoogle fonts
 
 ## Known Bugs
 
 No known bugs.
+If you encounter any bug, feel free to contact me or provide solutions to fixing the bug.
 
 ## Contributing changes
 
