@@ -21,12 +21,20 @@ To view this project, please use this live link. https://carolineireri.github.io
 
 ## BDD
 
+1. Displays Form on Contact Us section
+   - INPUT: "User name."
+   - INPUT: "User's email."
+   - INPUT: "User's message or feedback."
+   - OUTPUT: " It displays a message confirming the user's message has been received."
+2. An error Message is displayed if the required inputs are left blank.
+   - INPUT: ""
+   - OUTPUT: "Error Message is displayed on the respective blank input area."
+
 ## Technologies used
 
-- HTML
-- CSS
-- Javascript
-- JQuery
+- HTML & CSS (Bootstrap)
+- FGoogle fonts
+- JavaScript (jQuery 3.4.1)
 
 ## Known Bugs
 
@@ -34,7 +42,8 @@ No known bugs.
 
 ## Contributing changes
 
-To contribute to changes, feel free to fork this project on github and clone it to your local repository. Use this link https://github.com/carolineireri/ip_wk3
+To contribute to changes, feel free to fork this project on github and clone it to your local repository. Use this link https://github.com/carolineireri/ip_wk3.
+Use the index.html file for the main page.
 
 ## Support and Contact details
 
