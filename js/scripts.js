@@ -23,10 +23,18 @@ $(document).ready(function() {
     $("#management-p").hide();
     $(".hide3").show();
   });
-});
-$(".btnsend").click(function(event) {
-  event.preventDefault();
-  var user = document.getElementById("name").value;
-  var user = document.getElementById("name").value;
-  alert("Hello " + user + " your message has been received. Thank you.");
+  $("#contacts").submit(function(event) {
+    event.preventDefault();
+    var blanks = ["name", "mail", "message"];
+    var input = [];
+    blanks.forEach(function(blank) {
+      input.push($("#" + blank).val());
+    });
+    alert(
+      "Hello!.Thank You " +
+        input[0] +
+        " for reaching out to us. Your message has been received."
+    );
+    $("#contact")[0].reset();
+  });
 });

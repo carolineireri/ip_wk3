@@ -124,8 +124,8 @@ body {
   height: 400px;
 }
 #name,
-#email,
-#area {
+#mail,
+#message {
   background-color: transparent;
   border-color: white;
   color: white;
